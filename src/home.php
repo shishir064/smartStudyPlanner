@@ -25,7 +25,6 @@
 
       <ul class="hidden text-3x1 sm:visible md:visible gap-6 md:text-1xl lg:text-[2rem] lg:gap-9  md:flex">
         <li class="hover:text-[#e3d9d9]"><a href="home.php">Home</a></li>
-        <li class="hover:text-[#e3d9d9]"><a href="dashboard.php">Dashboard</a></li>
         <li class="hover:text-[#e3d9d9]"><a href="about_us.php">About</a></li>
         <li class="hover:text-[#e3d9d9]"><a href="contact.php">Contact Us</a></li>
         <button>
@@ -37,7 +36,7 @@
   </header>
 
   
-  <section class="relative bg-gradient-to-br from-blue-600 to-indigo-700 text-white py-24 px-6 text-center">
+  <section class="relative  from-blue-600 to-indigo-700 text-white py-24 px-6 text-center">
     <div class="max-w-4xl mx-auto">
       <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
         Plan Smarter, <br class="hidden sm:block"> Study Better
@@ -106,7 +105,7 @@
   </section>
 
   
-  <section class="bg-gradient-to-r from-blue-600 to-indigo-600 py-16 text-center text-white px-6">
+  <section class=" from-blue-600 to-indigo-600 py-16 text-center text-white px-6">
     <h3 class="text-3xl font-bold mb-4">Start Planning Your Success Today</h3>
     <p class="text-blue-100 mb-8">
       Join now and take control of your study life with Smart Study Planner.

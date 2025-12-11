@@ -7,9 +7,15 @@
     <title>About Us</title>
     <link rel="stylesheet" href="./output.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="defualt.css">
 </head>
 
-<body class="bg-[#E7F0FF] text-[#0B132B] ">
+<body class="bg-[#E7F0FF] text-[#0B132B]" data-barba="wrapper">
+       <div class="loading-container">
+      <div class="loading-screen">
+      </div>
+    </div>
+
     <header class="bg-[#3a86ff] text-white sticky z-10 top-0">
         <nav class="flex container mx-auto justify-between items-center px-4 py-6 ">
             <h1 class=" text-1xl md:text-3x1
@@ -29,8 +35,8 @@
             <button class="md:hidden">manu</button>
         </nav>
     </header>
-    <section class="p-8">
-        <div class="flex flex-col md:flex-row gap-6 items-center">
+    <section class="p-8" data-barba="container" data-barba-namespace="about" >
+        <div class="flex flex-col md:flex-row gap-6 items-center" >
 
             <!-- left section -->
             <div class="w-full md:w-1/2 ">
@@ -61,7 +67,10 @@
         </div>
     </section>
 
-
 </body>
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="script.js"></script>
+
 
 </html>

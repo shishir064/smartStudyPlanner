@@ -1,13 +1,54 @@
-const urlParams = new URLSearchParams(window.location.search);
+// ✅ Fade text on first page load
+window.addEventListener("load", () => {
+  gsap.to(".fade-text", {
+    opacity: 1,
+    y: 0,
+    duration: 0.6,
+    stagger: 0.2,
+    ease: "power2.out"
+  });
+});
 
-if (urlParams.get("success") === "1") {
-  const popup = document.getElementById("signupPopup");
+barba.init({
+  transitions: [
+    {
+      async leave(data) {
+        // ✅ SLIDE PAGE LEFT
+        await gsap.to(data.current.container, {
+          x: "-100%",
+          opacity: 0,
+          duration: 0.7,
+          ease: "power2.inOut"
+        });
+      },
 
-  popup.classList.remove("hidden");
-  popup.classList.add("flex");
+      async enter(data) {
+        // ✅ SLIDE PAGE FROM RIGHT
+        await gsap.from(data.next.container, {
+          x: "100%",
+          opacity: 0,
+          duration: 0.7,
+          ease: "power2.inOut"
+        });
 
-  // Auto redirect after 2 seconds
-  setTimeout(() => {
-    window.location.href = "login.php";
-  }, 2000);
-}
+        // ✅ FADE TEXT AFTER PAGE ENTER
+        gsap.fromTo(
+          data.next.container.querySelectorAll(".fade-text"),
+          { opacity: 0, y: 20 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.6,
+            stagger: 0.15,
+            ease: "power2.out"
+          }
+        );
+      }
+    }
+  ]
+});
+
+// ✅ Always scroll to top after transition
+barba.hooks.afterEnter(() => {
+  window.scrollTo(0, 0);
+});

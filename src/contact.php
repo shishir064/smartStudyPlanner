@@ -9,7 +9,11 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
-<body class="bg-[#E7F0FF] text-[#0B132B] ">
+<body class="bg-[#E7F0FF] text-[#0B132B] overflow-x-hidden" data-barba="wrapper">
+     <div class="loading-container">
+      <div class="loading-screen">
+      </div>
+    </div>
   <header class="bg-[#3a86ff] text-white sticky z-10 top-0">
     <nav class="flex container mx-auto justify-between items-center px-4 py-6 ">
       <h1 class=" text-1xl md:text-3x1
@@ -30,9 +34,9 @@
     </nav>
   </header>
 
-  <main class="container mx-auto px-6 py-15">
+  <main class="container mx-auto px-6 py-15"  data-barba="container" data-barba-namespace="about">
     <!-- grid layout -->
-    <div class=" md:grid md:grid-cols-1 md:lg:grid-cols-3 md:px-10 md:py-4">
+    <div class=" md:grid md:grid-cols-1 md:lg:grid-cols-3 md:px-10 md:py-4" >
       <!-- left contain -->
       <div class="hidden md:block md:py-4 lg:col-span-2 ">
         <div class=" w-[40%]">
@@ -113,5 +117,9 @@
     </div>
   </main>
 </body>
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="script.js"></script>
+
 
 </html>
