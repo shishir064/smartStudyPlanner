@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./output.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="defualt.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class="bg-[#E7F0FF] text-[#0B132B]" data-barba="wrapper">
@@ -65,6 +67,9 @@
 
         </div>
     </section>
+     <footer class="bg-gray-900 text-gray-300 text-center py-6">
+    <p>© 2025 Smart Study Planner | All Rights Reserved</p>
+  </footer>
 
 </body>
 <script src="https://unpkg.com/@barba/core"></script>
