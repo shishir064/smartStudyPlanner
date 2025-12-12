@@ -51,18 +51,11 @@
             </div>
         </div>
 
-        
-        
-        
-<div id="signupPopup" class="fixed inset-0 bg-black bg-opacity-50 hidden justify-center items-center z-50">
-  <div class="bg-white p-6 rounded-xl w-[90%] max-w-md text-center">
-    <h2 class="text-green-600 text-2xl font-bold mb-3">Signup Successful ✅</h2>
-    <p>Your account has been created successfully!</p>
-    <p class="mt-2">Redirecting to login...</p>
-  </div>
-</div>
-
     </section>
+
+    <footer class="bg-gray-900 text-gray-300 text-center py-6">
+    <p>© 2025 Smart Study Planner | All Rights Reserved</p>
+    </footer>
 
 
 
