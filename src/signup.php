@@ -40,7 +40,7 @@
                 <div class="flex flex-col ">
                     <label for="password">Password</label>
                     <input type="password" name="password" class="border p-2 rounded" placeholder="Enter your password"
-                        required>
+                    required>
                 </div>
                 <input type="submit" id="submit_btn" class="bg-blue-600 rounded p-2 text-white" value="Submit">
             </form>

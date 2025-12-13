@@ -7,7 +7,7 @@
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $sql = "INSERT INTO signup_info(email,username,password) VALUES ('$email','$username','$password')";
+    $sql = "INSERT INTO signup_info(email,user_name,password) VALUES ('$email','$username','$password')";
 
     if(mysqli_query($conn,$sql)){
         
