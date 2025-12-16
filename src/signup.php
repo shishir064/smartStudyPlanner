@@ -10,7 +10,7 @@
 </head>
 
 <body class="bg-[#7DBC5C] text-[#0B132B]  ">
-    <header class="bg-[#3a86ff] text-white ">
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white ">
         <nav class="flex container mx-auto justify-between items-center px-6 py-4 ">
             <h1 class=" text-1xl md:text-3x1 lg:text-4xl font-bold">
                 <a href="#home"> Smart Study Planner</a>

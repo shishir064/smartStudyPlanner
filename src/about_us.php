@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <header class="bg-[#3a86ff] text-white sticky z-10 top-0">
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white sticky z-10 top-0">
         <nav class="flex container mx-auto justify-between items-center px-4 py-6 ">
             <h1 class=" text-1xl md:text-3x1
       lg:text-4xl font-bold">

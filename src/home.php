@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Smart Study Planner</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
@@ -13,7 +13,7 @@
 <body class="bg-gray-50 text-gray-800">
 
   
-  <header class="bg-[#3a86ff] text-white sticky z-10 top-0">
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white sticky z-10 top-0">
     <nav class="flex container mx-auto justify-between items-center px-4 py-6 ">
       <h1 class=" text-1xl md:text-3x1
       lg:text-4xl font-bold">
@@ -33,7 +33,7 @@
   </header>
 
   
-  <section class="relative bg-gradient-to-br from-blue-600 to-indigo-700 text-white py-24 px-6 text-center">
+  <section class="relative bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-24 px-6 text-center">
     <div class="max-w-4xl mx-auto">
       <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
         Plan Smarter, <br class="hidden sm:block"> Study Better

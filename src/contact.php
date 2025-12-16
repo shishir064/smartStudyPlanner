@@ -14,7 +14,7 @@
       <div class="loading-screen">
       </div>
     </div>
-  <header class="bg-[#3a86ff] text-white sticky z-10 top-0">
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white sticky z-10 top-0">
     <nav class="flex container mx-auto justify-between items-center px-4 py-6 ">
       <h1 class=" text-1xl md:text-3x1
       lg:text-4xl font-bold">
@@ -115,7 +115,7 @@
 
     </div>
   </main>
-   <footer class="bg-gray-900 text-gray-300 text-center py-6">
+  <footer class="bg-gray-900 text-gray-300 text-center py-6">
     <p>© 2025 Smart Study Planner | All Rights Reserved</p>
   </footer>
 </body>
